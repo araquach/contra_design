@@ -2,3 +2,5 @@
 /protected/config
 /yii_11
 /contra_design.esproj
+
+*.log
