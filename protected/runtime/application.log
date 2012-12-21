@@ -1,0 +1,429 @@
+2012/08/11 18:28:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/jakata2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/jakata2/index.php/site/scripts/mootools_more.js
+HTTP_REFERER=http://localhost/~araquach/jakata2/index.php/site/index
+---
+2012/08/11 18:28:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/jakata2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/jakata2/index.php/site/scripts/modernizr.js
+HTTP_REFERER=http://localhost/~araquach/jakata2/index.php/site/index
+---
+2012/08/11 18:28:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/jakata2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/jakata2/index.php/site/scripts/mootools_core.js
+HTTP_REFERER=http://localhost/~araquach/jakata2/index.php/site/index
+---
+2012/08/11 18:28:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/jakata2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/jakata2/index.php/site/scripts/mootools_core.js
+HTTP_REFERER=http://localhost/~araquach/jakata2/index.php/site/page?view=about
+---
+2012/08/11 18:28:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/jakata2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/jakata2/index.php/site/scripts/mootools_more.js
+HTTP_REFERER=http://localhost/~araquach/jakata2/index.php/site/page?view=about
+---
+2012/08/11 18:28:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/jakata2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/jakata2/index.php/site/scripts/modernizr.js
+HTTP_REFERER=http://localhost/~araquach/jakata2/index.php/site/page?view=about
+---
+2012/08/11 18:28:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/jakata2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/jakata2/index.php/site/scripts/mootools_core.js
+HTTP_REFERER=http://localhost/~araquach/jakata2/index.php/site/contact
+---
+2012/08/11 18:28:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/jakata2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/jakata2/index.php/site/scripts/modernizr.js
+HTTP_REFERER=http://localhost/~araquach/jakata2/index.php/site/contact
+---
+2012/08/11 18:28:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/jakata2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/jakata2/index.php/site/scripts/mootools_more.js
+HTTP_REFERER=http://localhost/~araquach/jakata2/index.php/site/contact
+---
+2012/08/11 18:28:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/jakata2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/jakata2/index.php/site/scripts/mootools_core.js
+HTTP_REFERER=http://localhost/~araquach/jakata2/index.php/site/login
+---
+2012/08/11 18:28:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/jakata2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/jakata2/index.php/site/scripts/modernizr.js
+HTTP_REFERER=http://localhost/~araquach/jakata2/index.php/site/login
+---
+2012/08/11 18:28:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/jakata2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/jakata2/index.php/site/scripts/mootools_more.js
+HTTP_REFERER=http://localhost/~araquach/jakata2/index.php/site/login
+---
+2012/08/11 18:28:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/jakata2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/jakata2/index.php/site/scripts/modernizr.js
+HTTP_REFERER=http://localhost/~araquach/jakata2/index.php/site/index
+---
+2012/08/11 18:28:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/jakata2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/jakata2/index.php/site/scripts/mootools_core.js
+HTTP_REFERER=http://localhost/~araquach/jakata2/index.php/site/index
+---
+2012/08/11 18:28:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/jakata2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/jakata2/index.php/site/scripts/mootools_more.js
+HTTP_REFERER=http://localhost/~araquach/jakata2/index.php/site/index
+---
+2012/11/17 23:41:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/sc...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/scrollto.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/17 23:41:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/lo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/localscroll.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/17 23:41:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/sc...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/scrollto.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/17 23:41:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/lo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/localscroll.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:15:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/sc...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/scrollto.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:15:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/lo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/localscroll.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/sc...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/scrollto.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/lo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/localscroll.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:15:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/sc...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/scrollto.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:15:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/lo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/localscroll.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/sc...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/scrollto.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/lo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/localscroll.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/lo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/localscroll.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:15:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/sc...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/scrollto.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:16:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/lo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/localscroll.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:16:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/sc...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/scrollto.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:16:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/sc...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/scrollto.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:16:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/lo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/localscroll.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:16:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/sc...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/scrollto.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:16:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/lo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/localscroll.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:16:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/lo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/localscroll.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:16:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/sc...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/scrollto.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:28:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/lo...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/localscroll.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
+2012/11/23 17:28:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in /Users/araquach/Sites/yii_11/framework/web/CController.php:484
+Stack trace:
+#0 /Users/araquach/Sites/yii_11/framework/web/CController.php(271): CController->missingAction('scripts')
+#1 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(283): CController->run('scripts')
+#2 /Users/araquach/Sites/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/scripts/sc...')
+#3 /Users/araquach/Sites/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/araquach/Sites/contra_design/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~araquach/contra_design/index.php/site/scripts/scrollto.js
+HTTP_REFERER=http://localhost/~araquach/contra_design/index.php/site/index
+---
