@@ -34,7 +34,7 @@
 		<div id="logo"></div> <!--#logo-->
 	
 	<nav id="mainmenu">
-		<?php  ?>
+		<?php  if ($_SERVER['REQUEST_URI'] == Yii::app()->request->baseUrl.'/r=site/index'):?>
 		
 		<?php echo'
 		<ul>
@@ -47,6 +47,8 @@
 			<li><a href="#Photography">Photography</a></li>
 			<li><a href="#Contact">Contact</a></li>
 		</ul>' ?>
+		
+		<?php else:?>
 		
 		<?php 
 		  $this->widget('zii.widgets.CMenu',array(
@@ -62,6 +64,7 @@
 			),
 		)); ?>
 		
+		<?php endif?>
 		
 		
 	</nav><!-- mainmenu -->
