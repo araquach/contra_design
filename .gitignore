@@ -1,3 +1,9 @@
 /assets
 /protected/config
 /yii_11
+/contra_design.esproj
+
+*.log
+*.espressostorage
+
+contra_design.esproj/user.adamcarter.espressostorage
