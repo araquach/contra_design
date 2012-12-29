@@ -34,7 +34,7 @@
 		<div id="logo"></div> <!--#logo-->
 	
 	<nav id="mainmenu">
-		<?php $this->widget('zii.widgets.CMenu',array(
+		<?php /*$this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'Home', 'url'=>array('/site/index', '#'=>'Home')),
 				array('label'=>'About', 'url'=>array('/site/index', '#'=>'AboutContra')),
@@ -45,7 +45,18 @@
 				array('label'=>'Photography', 'url'=>array('/site/index', '#'=>'Photography')),
 				array('label'=>'Contact', 'url'=>array('/site/index', '#'=>'Contact')),
 			),
-		)); ?>
+		));*/ ?>
+		<ul>
+			<li><a href="#Home">Home</a></li>
+			<li><a href="#AboutContra">About</a></li>
+			<li><a href="#AboutAdam">Profile</a></li>
+			<li><a href="#WebDesign">Web Design</a></li>
+			<li><a href="#SEO">SEO</a></li>
+			<li><a href="#PrintDesign">Print Design</a></li>
+			<li><a href="#Photography">Photography</a></li>
+			<li><a href="#Contact">Contact</a></li>
+		</ul>
+		
 	</nav><!-- mainmenu -->
 	</div> <!--#header_centre-->
 	</header><!-- header -->
