@@ -34,7 +34,7 @@
 		<div id="logo"></div> <!--#logo-->
 	
 	<nav id="mainmenu">
-		<?php  if (strpos($_SERVER['REQUEST_URI'], Yii::app()->request->baseUrl) === 0):?>
+		<?php  if (strpos($_SERVER['REQUEST_URI'], Yii::app()->request->baseUrl.'/site/index') === 0):?>
 		
 		<?php echo'
 		<ul>
