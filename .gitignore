@@ -1,9 +1,13 @@
 /assets
 /protected/config
 /yii_11
+<<<<<<< HEAD
 /contra_design.esproj
 
 *.log
 *.espressostorage
 
 contra_design.esproj/user.adamcarter.espressostorage
+=======
+contra_design.esproj/user.adamcarter.espressostorage
+>>>>>>> eyrry
