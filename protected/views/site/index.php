@@ -35,7 +35,7 @@ Yii::app()->clientScript->registerScript('localscroll',"$('#mainmenu').localScro
 
 	</section> <!--.text-->
 	<div class="visuals">
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/about.jpg" width="400" height="450">
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/" width="401" height="377">
 	</div> <!--.visuals-->
 	</section> <!--.info group-->
 </section> <!--#about_contra-->
@@ -91,7 +91,7 @@ Yii::app()->clientScript->registerScript('localscroll',"$('#mainmenu').localScro
 			<p class="light">Loren Ipsdom fksdjfkds</p>
 		</section> <!--.text-->
 		<div class="visuals">
-		
+		<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/brain.png" width="421" height="397">
 		</div> <!--.visuals-->
 	</section> <!--.info group-->
 </section> <!--#print_design-->
