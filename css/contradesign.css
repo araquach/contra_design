@@ -1,11 +1,14 @@
 
 @charset "UTF-8";
 
-@import 'fonts/cabinsketch/stylesheet.css'; 
-@import 'fonts/Print-Clearly/stylesheet.css'; 
+/* @group Fonts */
 
- 
-/*------------   Group/clear fix styling   ---------------*/
+@import 'fonts/cabinsketch/stylesheet.css'; 
+@import 'fonts/Print-Clearly/stylesheet.css';
+
+/* @end */
+
+/* @group Clear Fix */
 
 .group:after {
 	content: ".";
@@ -24,6 +27,9 @@
 	min-height: 1px;
 }
 
+/* @end */
+
+/* @group General Styling */
 
 body {
 	width: 100%;
@@ -59,9 +65,9 @@ p.light {
 	color: #FFF;
 }
 
-/*  ----------  Header  --------------*/
+/* @end */
 
-
+/* @group Header */
 
 header {
 	position: fixed;
@@ -149,8 +155,9 @@ nav li a:hover {
 	opacity: 1;
 }*/
 
+/* @end */
 
-/*  ----------  index page  --------------*/
+/* @group Index */
 
 div#home {
 	
@@ -229,7 +236,9 @@ div .visuals.odd {
 	height: 150px;
 }*/
 
-/*  ----------  about section  --------------*/
+/* @end */
+
+/* @group About */
 
 div#about_contra_point {
 	background: url('../images/backgrounds/background1_point.png') no-repeat center top;
@@ -241,7 +250,7 @@ section#about_contra {
 }
 
 section#about_contra .text {
-	background-color: rgba(252, 199, 54, 0.6);
+	
 }
 
 section#about_contra p:first-of-type {
@@ -250,32 +259,6 @@ section#about_contra p:first-of-type {
 }
 
 section#about_contra p:last-of-type {
-	font-style: italic;
-}
-
-
-
-/*  ----------  profile section  --------------*/
-
-div#about_adam_point {
-	background: url('../images/backgrounds/background2_point.png') no-repeat center top;
-}
-section#about_adam {
-	background: url('../images/backgrounds/background2.jpg') repeat center top #f5f5f5;
-	position: relative;
-}
-
-section#about_adam .text {
-	background-color: rgba(78, 134, 153, 0.6);
-	
-}
-
-section#about_adam p:first-of-type {
-	font-size: 1.1em;
-	font-weight: bold;
-}
-
-section#about_adam p:last-of-type {
 	font-style: italic;
 }
 
@@ -290,7 +273,7 @@ section#web_design {
 }
 
 section#web_design .text {
-	background-color: rgba(64, 131, 110, 0.6);
+	
 }
 
 section#web_design p:first-of-type {
@@ -313,7 +296,7 @@ section#seo {
 }
 
 section#seo .text {
-	background-color: rgba(252, 199, 54, 0.6);
+	
 }
 
 section#seo p:first-of-type {
@@ -325,7 +308,9 @@ section#seo p:last-of-type {
 	font-style: italic;
 }
 
-/*  ----------  webapp section  --------------*/
+/* @end */
+
+/* @group WebApp */
 
 div#web_applications_point {
 	background: url('../images/backgrounds/background2_point.png') no-repeat center top;
@@ -336,7 +321,7 @@ section#web_applications {
 }
 
 section#web_applications .text {
-	background-color: rgba(78, 134, 153, 0.6);
+	
 }
 
 section#web_applications p:first-of-type {
@@ -348,7 +333,9 @@ section#web_applications p:last-of-type {
 	font-style: italic;
 }
 
-/*  ----------  print design section  --------------*/
+/* @end */
+
+/* @group Print Design */
 
 div#print_design_point {
 	background: url('../images/backgrounds/background3_point.png') no-repeat center top;
@@ -359,7 +346,7 @@ section#print_design {
 }
 
 section#print_design .text {
-	background-color: rgba(35, 123, 93, 0.6);
+	
 }
 
 section#print_design p:first-of-type {
@@ -371,7 +358,9 @@ section#print_design p:last-of-type {
 	font-style: italic;
 }
 
-/*  ----------  photography section  --------------*/
+/* @end */
+
+/* @group Photography */
 
 div#photography_point {
 	background: url('../images/backgrounds/background1_point.png') no-repeat center top;
@@ -382,7 +371,7 @@ section#photography {
 }
 
 section#photography .text {
-	background-color: rgba(255, 255, 255, 0.6);
+	
 }
 
 section#photography p:first-of-type {
@@ -394,7 +383,34 @@ section#photography p:last-of-type {
 	font-style: italic;
 }
 
-/*  ----------  contact section  --------------*/
+/* @end */
+
+/* @group Profile */
+
+div#about_adam_point {
+	background: url('../images/backgrounds/background2_point.png') no-repeat center top;
+}
+section#about_adam {
+	background: url('../images/backgrounds/background2.jpg') repeat center top #f5f5f5;
+	position: relative;
+}
+
+section#about_adam .text {
+	
+}
+
+section#about_adam p:first-of-type {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+section#about_adam p:last-of-type {
+	font-style: italic;
+}
+
+/* @end */
+
+/* @group Contact */
 
 div#contact_point {
 	background: url('../images/backgrounds/background2_point.png') no-repeat center top;
@@ -405,7 +421,7 @@ section#contact {
 }
 
 section#contact .text {
-	background-color: rgba(255, 255, 255, 0.6);
+	
 }
 
 section#contact p:first-of-type {
@@ -417,31 +433,57 @@ section#contact p:last-of-type {
 	font-style: italic;
 }
 
+/* @end */
+
+/* @group About Page*/
+
 /*  ----------  about page  --------------*/
 
+/* @end */
+
+/* @group Profile Page */
 
 /*  ----------  profile page  --------------*/
 
+/* @end */
+
+/* @group Web Design Page */
 
 /*  ----------  webdesign page  --------------*/
 
+/* @end */
+
+/* @group SEO Page */
 
 /*  ----------  seo page  --------------*/
 
+/* @end */
+
+/* @group WebApp Page */
 
 /*  ----------  webapp page  --------------*/
 
+/* @end */
+
+/* @group Print Design Page */
 
 /*  ----------  print design page  --------------*/
 
+/* @end */
+
+/* @group Contact Page */
 
 /*  ----------  contact page  --------------*/
 
+/* @end */
+
+/* @group Blog Page */
 
 /*  ----------  blog page  --------------*/
 
+/* @end */
 
-/*  ----------  footer  --------------*/
+/* @group Footer */
 
 footer {
 	height: 100px;
@@ -458,4 +500,6 @@ div#footer_centre {
 	padding: 0 20px;
 	margin: 0 auto;
 }
+
+/* @end */
 

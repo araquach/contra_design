@@ -116,7 +116,8 @@ Yii::app()->clientScript->registerScript('localscroll',"$('#mainmenu').localScro
 	<section class="info group">
 	<section class="text">
 			<h1 class="light">The brains <br>behind Contra</h1>
-			<p class="light">Adam Carter </p>
+				<p class="light">Contra was created over a period of years by founder, Adam Carter, working on projects for his other businesses. </p>
+				<p class="light">With marketing, photography, web &amp; print design fundamental in the growth of businesses along with Adams passion for art, design &amp; photography, Contra </p>
 		</section> <!--.text-->
 		<div class="visuals">
 		<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/bed-volume.jpg" width="190" height="220">
