@@ -72,59 +72,39 @@ p.light {
 header {
 	position: fixed;
 	top: 0;
-	z-index: 2;
-	height: 120px;
-	width: 100%;
-	background-color: rgba(35, 35, 35, 0.95);
-}
-
-#header_bottom {
-	position: fixed;
-	top: 120px;
 	z-index: 1;
-	height: 120px;
+	height: 60px;
 	width: 100%;
-	background: url('../images/contra_head.png') no-repeat center top;
+	background-color: rgba(0, 0, 0, 0.9);
 }
 
 #logo {
 	position: absolute;
-	top: 0px;
+	top: 10px;
 	left: -20px;
-	width: 280px;
-	height: 180px;
-	margin-left: 30px;
-	background: url('../images/contra_logo.png') no-repeat left top;
-	background-size: cover;
-	z-index: 2;
-}
-
-div#header_centre {
-	width: 1000px;
-	padding: 0 20px;
-	margin: 0 auto;
-	position: relative;
+	width: 120px;
+	height: 45px;
+	margin-left: 90px;
+	background: url('../images/contra-logo.png') no-repeat left top;
 }
 
 nav {
 	margin-top: 20px;
 	padding-top: 0;
-	float: right;
+	float: left;
 }
 
 nav ul {
-	width: 480px;
-	margin-left: 90px;
+	
 }
 
 nav li {
 	list-style-type: none;
 	display: block;
 	float: left;
-	font-size: .95em;
+	font-size: .75em;
 	margin-right: 15px;
-	line-height: 2.5em;
-	width: 100px;
+	width: 80px;
 }
 
 nav li a {

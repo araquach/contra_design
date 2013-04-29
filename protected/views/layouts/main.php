@@ -29,25 +29,24 @@
 <div class="container" id="page">
 
 	<header>
-	<div id="header_bottom"></div>
-	<div id="header_centre">	
+	<div id="header_bottom"></div>	
 		<div id="logo"></div> <!--#logo-->
 	
 	<nav id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/site/index', '#'=>'Home')),
-				array('label'=>'About', 'url'=>array('/site/index', '#'=>'AboutContra')),
-				array('label'=>'Profile', 'url'=>array('/site/index', '#'=>'AboutAdam')),
-				array('label'=>'Web Design', 'url'=>array('/site/index', '#'=>'WebDesign')),
-				array('label'=>'SEO', 'url'=>array('/site/index', '#'=>'SEO')),
-				array('label'=>'Print Design', 'url'=>array('/site/index', '#'=>'PrintDesign')),
-				array('label'=>'Photography', 'url'=>array('/site/index', '#'=>'Photography')),
-				array('label'=>'Contact', 'url'=>array('/site/index', '#'=>'Contact')),
+				array('label'=>'HOME', 'url'=>array('/site/index')),
+				array('label'=>'ABOUT', 'url'=>array('/site/index', '#'=>'AboutContra')),
+				array('label'=>'PROFILE', 'url'=>array('/site/index', '#'=>'AboutAdam')),
+				//array('label'=>'Web Design', 'url'=>array('/site/index', '#'=>'WebDesign')),
+				//array('label'=>'SEO', 'url'=>array('/site/index', '#'=>'SEO')),
+				//array('label'=>'Print Design', 'url'=>array('/site/index', '#'=>'PrintDesign')),
+				//array('label'=>'Photography', 'url'=>array('/site/index', '#'=>'Photography')),
+				array('label'=>'CONTACT', 'url'=>array('/site/contact')),
+				
 			),
 		)); ?>
 	</nav><!-- mainmenu -->
-	</div> <!--#header_centre-->
 	</header><!-- header -->
 	
 	<?php if(isset($this->breadcrumbs)):?>
