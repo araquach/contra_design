@@ -6,12 +6,10 @@ $this->pageTitle=Yii::app()->name;
 ?>
 
 <?php 
-//Yii::app()->clientScript->registerScriptFile('scripts/scrollto.js',CClientScript::POS_HEAD); 
-//Yii::app()->clientScript->registerScriptFile('scripts/localscroll.js',CClientScript::POS_HEAD);
-//Yii::app()->clientScript->registerScript('localscroll',"$('#mainmenu').localScroll({duration:800});",CClientScript::POS_READY);
-
+Yii::app()->clientScript->registerScriptFile('scripts/scrollto.js',CClientScript::POS_HEAD); 
+Yii::app()->clientScript->registerScriptFile('scripts/localscroll.js',CClientScript::POS_HEAD);
+Yii::app()->clientScript->registerScript('localscroll',"$('#mainmenu').localScroll({duration:800});",CClientScript::POS_READY);
 ?>
-
 
 <div id="home">
 <a name="Home" class="anchor"></a>
@@ -22,7 +20,6 @@ $this->pageTitle=Yii::app()->name;
 </section>--> <!--#strapline-->
 
 <section id="about_contra" class="section">
-<div id="about_contra_point" class="point"></div> <!--pointy top of box-->
 <a name="AboutContra" class="anchor"></a>
 	<section class="info group">
 	<section class="text">
@@ -41,7 +38,6 @@ $this->pageTitle=Yii::app()->name;
 </section> <!--#about_contra-->
 
 <section id="web_design" class="section">
-<div id="web_design_point" class="point"></div> <!--pointy top of box-->
 <a name="WebDesign" class="anchor"></a>
 	<section class="info group">
 		<section class="text odd">
@@ -55,7 +51,6 @@ $this->pageTitle=Yii::app()->name;
 </section> <!--#web_design-->
 
 <section id="seo" class="section">
-<div id="seo_point" class="point"></div> <!--pointy top of box-->
 <a name="SEO" class="anchor"></a>
 	<section class="info group">
 		<section class="text">
@@ -69,7 +64,6 @@ $this->pageTitle=Yii::app()->name;
 </section> <!--#seo-->
 
 <section id="web_applications" class="section">
-<div id="web_applications_point" class="point"></div> <!--pointy top of box-->
 <a name="WebApplications" class="anchor"></a>
 	<section class="info group">
 		<section class="text odd">
@@ -83,7 +77,6 @@ $this->pageTitle=Yii::app()->name;
 </section> <!--#web_applications-->
 
 <section id="print_design" class="section">
-<div id="print_design_point" class="point"></div> <!--pointy top of box-->
 <a name="PrintDesign" class="anchor"></a>
 	<section class="info group">
 		<section class="text">
@@ -97,7 +90,6 @@ $this->pageTitle=Yii::app()->name;
 </section> <!--#print_design-->
 
 <section id="photography" class="section">
-<div id="photography_point" class="point"></div> <!--pointy top of box-->
 <a name="Photography" class="anchor"></a>
 	<section class="info group">
 		<section class="text odd">
@@ -111,7 +103,6 @@ $this->pageTitle=Yii::app()->name;
 </section> <!--#photography-->
 
 <section id="about_adam" class="section">
-<div id="about_adam_point" class="point"></div> <!--pointy top of box-->
 <a name="AboutAdam" class="anchor"></a>
 	<section class="info group">
 	<section class="text">
@@ -129,7 +120,6 @@ $this->pageTitle=Yii::app()->name;
 </section> <!--#about_adam-->
 
 <section id="contact" class="section">
-<div id="contact_point" class="point"></div> <!--pointy top of box-->
 <a name="Contact" class="anchor"></a>
 	<section class="info group">
 		<section class="text odd">

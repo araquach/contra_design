@@ -29,9 +29,10 @@
 <div class="container" id="page">
 
 	<header>
-	<div id="header_bottom"></div>	
-		<div id="logo"></div> <!--#logo-->
-	
+		<div id="logo">
+		<?php echo CHtml::link('<img src="images/contra-logo.png" alt="Contra Design & Photography"/>', array('/site/index')); ?>
+		</div> <!--#logo-->
+		
 	<nav id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
