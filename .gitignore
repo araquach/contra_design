@@ -18,3 +18,5 @@ images/.DS_Store
 *.espressostorage
 
 *.espressostorage
+
+protected/runtime/application.log
