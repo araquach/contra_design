@@ -37,7 +37,7 @@
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'HOME', 'url'=>array('/site/index')),
-				array('label'=>'ABOUT', 'url'=>array('/site/index', '#'=>'AboutContra')),
+				array('label'=>'ABOUT', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'PROFILE', 'url'=>array('/site/index', '#'=>'AboutAdam')),
 				//array('label'=>'Web Design', 'url'=>array('/site/index', '#'=>'WebDesign')),
 				//array('label'=>'SEO', 'url'=>array('/site/index', '#'=>'SEO')),
