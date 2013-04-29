@@ -73,29 +73,25 @@ header {
 	position: fixed;
 	top: 0;
 	z-index: 1;
-	height: 60px;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.9);
-	padding-left: 200px;
+	padding-top: 30px;
 }
 
 #logo {
-	position: absolute;
-	top: 10px;
-	left: -20px;
-	width: 120px;
-	height: 45px;
-	margin-left: 90px;
-}
-
-nav {
-	margin-top: 22px;
-	width: 500px;
-	padding-top: 0;
 	float: left;
+	width: 120px;
+	height: 30px;
+	margin-left: 30px;
+	
 }
 
 nav ul {
+	float: left;
+	width: 400px;
+	padding: 0;
+	margin-left: 20px;
+	margin-top: 30px;
 	
 }
 
@@ -104,18 +100,18 @@ nav li {
 	display: block;
 	float: left;
 	font-size: .75em;
-	margin-right: 15px;
+	margin-left: 15px;
 	width: 80px;
 }
 
 nav li a {
 	color: #FFF;
 	text-decoration: none;
-	margin: 10px 10px;
 	opacity: .7;
 	-webkit-transition: opacity 0.1s ease-in-out;
 	-moz-transition: opacity 0.1s ease-in-out;
 	transition: opacity 0.1s ease-in-out;
+	padding-bottom: 8px;
 }
 
 nav li a:link {
@@ -128,13 +124,13 @@ nav li a:visited {
 
 nav li a:hover {
 	opacity: 1;
-	border-bottom: none;
 	color: #FFF;
 }
 
-/*li.active a {
+li.active a {
 	opacity: 1;
-}*/
+	border-bottom: 2px solid #FFF;
+}
 
 /* @end */
 

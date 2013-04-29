@@ -6,6 +6,7 @@
 	<meta name="language" content="en" />
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/scripts/nivo-slider/nivo-slider.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/contradesign.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 	
@@ -38,7 +39,7 @@
 			'items'=>array(
 				array('label'=>'HOME', 'url'=>array('/site/index')),
 				array('label'=>'ABOUT', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'PROFILE', 'url'=>array('/site/index', '#'=>'AboutAdam')),
+				array('label'=>'PROFILE', 'url'=>array('/site/page', 'view'=>'profile')),
 				//array('label'=>'Web Design', 'url'=>array('/site/index', '#'=>'WebDesign')),
 				//array('label'=>'SEO', 'url'=>array('/site/index', '#'=>'SEO')),
 				//array('label'=>'Print Design', 'url'=>array('/site/index', '#'=>'PrintDesign')),
