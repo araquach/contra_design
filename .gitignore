@@ -22,3 +22,5 @@ images/.DS_Store
 protected/runtime/application.log
 
 protected/.DS_Store
+
+*.espressostorage
