@@ -8,7 +8,6 @@ $this->pageTitle=Yii::app()->name;
 <?php 
 Yii::app()->clientScript->registerScriptFile('scripts/scrollto.js',CClientScript::POS_HEAD); 
 Yii::app()->clientScript->registerScriptFile('scripts/nivo-slider/jquery.nivo.slider.js',CClientScript::POS_HEAD);
-Yii::app()->clientScript->registerScriptFile('scripts/nivo-slider/jquery.nivo.slider.pack.js',CClientScript::POS_HEAD); 
 Yii::app()->clientScript->registerScriptFile('scripts/localscroll.js',CClientScript::POS_HEAD);
 Yii::app()->clientScript->registerScript('localscroll',"$('#mainmenu').localScroll({duration:800});",CClientScript::POS_READY);
 Yii::app()->clientScript->registerScript('slider',"$('#slider').nivoSlider();",CClientScript::POS_READY);

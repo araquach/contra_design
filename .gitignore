@@ -24,3 +24,5 @@ protected/runtime/application.log
 protected/.DS_Store
 
 *.espressostorage
+
+*.espressostorage
