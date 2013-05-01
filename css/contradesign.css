@@ -75,7 +75,7 @@ header {
 	z-index: 1;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.9);
-	padding-top: 30px;
+	padding-top: 20px;
 }
 
 #logo {
@@ -83,6 +83,7 @@ header {
 	width: 120px;
 	height: 30px;
 	margin-left: 30px;
+	margin-right: 20px;
 	
 }
 
@@ -413,7 +414,6 @@ footer {
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.9);
 	color: #FFF;
-	box-shadow: 0 -3px 5px rgba(68, 68, 68, 0.8);
 	position: absolute;
 	z-index: 2;
 }
