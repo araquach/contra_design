@@ -1,28 +1,20 @@
 /assets
-/protected/config
 /yii_11
+/protected/config
 /contra_design.esproj
-
-*.log
-*.espressostorage
-
-contra_design.esproj/user.adamcarter.espressostorage
-css/.DS_Store
-
-images/.DS_Store
 
 .DS_Store
 
+*.espressostorage
+
 *.log
 
 *.espressostorage
 
-*.espressostorage
+*.DS_Store
 
-protected/runtime/application.log
+contra_design.esproj/Project.espressostorage
 
-protected/.DS_Store
+*.log
 
-*.espressostorage
-
-*.espressostorage
+images/.DS_Store
