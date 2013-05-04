@@ -18,3 +18,5 @@ contra_design.esproj/Project.espressostorage
 *.log
 
 images/.DS_Store
+
+*.espressostorage
