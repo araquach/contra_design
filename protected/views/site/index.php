@@ -10,16 +10,16 @@ Yii::app()->clientScript->registerScriptFile('scripts/scrollto.js',CClientScript
 Yii::app()->clientScript->registerScriptFile('scripts/nivo-slider/jquery.nivo.slider.js',CClientScript::POS_HEAD);
 Yii::app()->clientScript->registerScriptFile('scripts/localscroll.js',CClientScript::POS_HEAD);
 Yii::app()->clientScript->registerScript('localscroll',"$('#mainmenu').localScroll({duration:800});",CClientScript::POS_READY);
-Yii::app()->clientScript->registerScript('slider',"$('#slider').nivoSlider();",CClientScript::POS_READY);
+Yii::app()->clientScript->registerScript('slider',"$('#slider').nivoSlider({effect: 'fade','slow'});",CClientScript::POS_READY);
 ?>
 
 <div id="home">
-<div class="slider-wrapper">
+<div class="slider-wrapper theme-default">
     <div id="slider" class="nivoSlider">
-        <img src="images/slide1.jpg" alt="" />
-        <a href="http://dev7studios.com"><img src="images/slide2.jpg" alt="" title="#htmlcaption" /></a>
-        <img src="images/slide3.jpg" alt="" title="This is an example of a caption" />
-        <img src="images/slide4.jpg" alt="" />
+        <img src="images/test0.jpg" alt="" />
+        <img src="images/test1.jpg" alt="" />
+        <img src="images/test2.jpg" alt="" />
+        <img src="images/test3.jpg" alt="" />
     </div>
 </div>
 
