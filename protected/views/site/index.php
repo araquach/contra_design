@@ -10,19 +10,9 @@ Yii::app()->clientScript->registerScriptFile('scripts/scrollto.js',CClientScript
 Yii::app()->clientScript->registerScriptFile('scripts/nivo-slider/jquery.nivo.slider.js',CClientScript::POS_HEAD);
 Yii::app()->clientScript->registerScriptFile('scripts/localscroll.js',CClientScript::POS_HEAD);
 Yii::app()->clientScript->registerScript('localscroll',"$('#mainmenu').localScroll({duration:800});",CClientScript::POS_READY);
-Yii::app()->clientScript->registerScript('slider',"$('#slider').nivoSlider({effect: 'fade','slow'});",CClientScript::POS_READY);
 ?>
 
 <div id="home">
-<div class="slider-wrapper theme-default">
-    <div id="slider" class="nivoSlider">
-        <img src="images/test0.jpg" alt="" />
-        <img src="images/test1.jpg" alt="" />
-        <img src="images/test2.jpg" alt="" />
-        <img src="images/test3.jpg" alt="" />
-    </div>
-</div>
-
 
 <section id="web_design" class="section">
 <a name="WebDesign" class="anchor"></a>
