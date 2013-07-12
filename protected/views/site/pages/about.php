@@ -6,7 +6,7 @@
 <a name="AboutContra" class="anchor"></a>
 	<section class="info group">
 	<div class="visuals">
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/" width="401" height="377">
+	
 	</div> <!--.visuals-->
 	<section class="text">
 		<h1>See your ideas come to life&hellip;</h1>

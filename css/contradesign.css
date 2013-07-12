@@ -183,8 +183,8 @@ section .text {
 }
 
 div .visuals {
-	width: 400px;
-	height: 450px;
+	width: 350px;
+	height: 350px;
 	background-color: #fdc269;
 	float: left;
 	margin-left: 20px;
