@@ -29,6 +29,8 @@
 <div class="container" id="page">
 
 	<header>
+	
+	<div id="nav_logo">
 		<div id="logo">
 		<?php echo CHtml::link('<img src="images/contra-logo.png" alt="Contra Design & Photography"/>', array('/site/index')); ?>
 		</div> <!--#logo-->
@@ -48,6 +50,7 @@
 			),
 		)); ?>
 	</nav><!-- mainmenu -->
+	</div><!--nav_logo-->
 	</header><!-- header -->
 	
 	<?php if(isset($this->breadcrumbs)):?>

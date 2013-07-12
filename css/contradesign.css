@@ -78,6 +78,11 @@ header {
 	padding-top: 20px;
 }
 
+#nav_logo {
+	margin: 0 auto;
+	max-width: 900px;
+}
+
 #logo {
 	float: left;
 	width: 120px;
@@ -164,16 +169,13 @@ div#home h1 {
 }
 
 section .info {
-	width: 900px;
-	padding: 30px;
+	max-width: 900px;
 	margin: 0 auto;
 }
 
 section .text {
 	width: 380px;
-	padding: 20px;
-	margin-bottom: 100px;
-	margin-top: 10px;
+	margin-left: 20px;
 	float: left;
 	border-bottom-left-radius: 60px;
 	border-top-right-radius: 60px;
@@ -183,10 +185,10 @@ section .text {
 div .visuals {
 	width: 400px;
 	height: 450px;
-	margin-top: 15px;
-	margin-bottom: 80px;
-	/*background-color: #fffefe;*/
-	float: right;
+	background-color: #fdc269;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
 	/*-moz-box-shadow: 3px 3px 9px rgba(109, 109, 95, 0.84);
 	-webkit-box-shadow: 3px 3px 9px rgba(109, 109, 95, 0.84);
 	box-shadow: 3px 3px 9px rgba(109, 109, 95, 0.84);*/
@@ -197,8 +199,7 @@ div .visuals {
 /* @group About */
 
 section#about_contra {
-	position: relative;
-	margin-top: 230px;
+	
 }
 
 section#about_contra .text {
@@ -217,7 +218,7 @@ section#about_contra p:last-of-type {
 /*  ----------  webdesign section  --------------*/
 
 section#web_design {
-	position: relative;
+	
 }
 
 section#web_design .text {
@@ -236,7 +237,7 @@ section#web_design p:last-of-type {
 /*  ----------  seo section  --------------*/
 
 section#seo {
-	position: relative;
+	
 }
 
 section#seo .text {
@@ -257,7 +258,7 @@ section#seo p:last-of-type {
 /* @group WebApp */
 
 section#web_applications {
-	position: relative;
+	
 }
 
 section#web_applications .text {
@@ -278,7 +279,7 @@ section#web_applications p:last-of-type {
 /* @group Print Design */
 
 section#print_design {
-	position: relative;
+	
 }
 
 section#print_design .text {
@@ -299,7 +300,7 @@ section#print_design p:last-of-type {
 /* @group Photography */
 
 section#photography {
-	position: relative;
+	
 }
 
 section#photography .text {
@@ -320,7 +321,7 @@ section#photography p:last-of-type {
 /* @group Profile */
 
 section#about_adam {
-	position: relative;
+	
 }
 
 section#about_adam .text {
@@ -341,7 +342,7 @@ section#about_adam p:last-of-type {
 /* @group Contact */
 
 section#contact {
-	position: relative;
+	
 }
 
 section#contact .text {
