@@ -7,12 +7,28 @@ $this->pageTitle=Yii::app()->name;
 
 <?php 
 Yii::app()->clientScript->registerScriptFile('scripts/scrollto.js',CClientScript::POS_HEAD); 
-Yii::app()->clientScript->registerScriptFile('scripts/nivo-slider/jquery.nivo.slider.js',CClientScript::POS_HEAD);
+Yii::app()->clientScript->registerScriptFile('scripts/anythingSlider/js/jquery.anythingslider.min.js',CClientScript::POS_HEAD);
 Yii::app()->clientScript->registerScriptFile('scripts/localscroll.js',CClientScript::POS_HEAD);
 Yii::app()->clientScript->registerScript('localscroll',"$('#mainmenu').localScroll({duration:800});",CClientScript::POS_READY);
+Yii::app()->clientScript->registerScript('anythingSlider',"$('#slider').anythingSlider({
+			theme		 : 'minimalist-square',
+			expand       : true,
+			autoPlay     : true
+		});",CClientScript::POS_READY);
 ?>
 
+
+
 <div id="home">
+<section id="sliderContainer">
+<div id="slider">
+		<div class="slide s1"></div>
+		<div class="slide s2"></div>
+		<div class="slide s3"></div>
+		<div class="slide s4"></div>
+		<div class="slide s5"><h1>HTML Test</h1><p>This is to see if HTML does work?</p></div>
+</div>
+</section><!--sliderContainer-->
 
 <section id="web_design" class="section">
 <a name="WebDesign" class="anchor"></a>

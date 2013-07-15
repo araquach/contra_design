@@ -138,6 +138,39 @@ li.active a {
 	border-bottom: 2px solid #FFF;
 }
 
+#sliderContainer {
+	margin: 80px auto 20px auto;
+	max-width: 900px;
+}
+
+#slider .slide {
+	-webkit-background-size: contain;
+	  -moz-background-size: contain;
+	  -o-background-size: contain;
+	  background-size: contain;
+}
+
+#slider .s1 {
+	background: url('../images/test0.jpg') no-repeat left top;
+}
+
+#slider .s2 {
+	background: url('../images/test1.jpg') no-repeat left top;
+}
+
+#slider .s3 {
+	background: url('../images/test2.jpg') no-repeat left top;
+}
+
+#slider .s4 {
+	background: url('../images/test3.jpg') no-repeat left top;
+}
+
+#slider .s5 {
+	background: url('../images/test4.jpg') no-repeat left top;
+}
+
+
 /* @end */
 
 /* @group Index */
