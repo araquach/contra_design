@@ -24,7 +24,20 @@
 
 /* @group General Styling */
 
+.container {
+	width: 950px;
+	margin: 0 auto;
+}
 
+/* @group Header */
+
+header {
+	width: 100%;
+	height: 300px;
+	background-color: black;
+}
+
+/* @end */
 
 /* @end */
 

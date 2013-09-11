@@ -26,7 +26,7 @@
 
 <body>
 
-<div class="container" id="page">
+<div class="container">
 	<header>
 		<nav id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
