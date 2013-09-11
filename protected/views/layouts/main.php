@@ -16,6 +16,20 @@
 			array('account'=>'**-*******-*','domainName'=>'template.com'));
 	*/?>
 	
+	<?php
+	  $browser = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+	    if ($browser == true){
+	    $browser = 'iphone';
+	  }
+	?>
+	
+	<?php if($browser == 'iphone'){ ?>
+	  <meta name="viewport"
+	  content="width=device-width,
+	  minimum-scale=1.0, maximum-scale=1.0" />
+	<?php } ?>
+
+	
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/selectivizr-min.js "type="text/javascript"></script>
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/modernizr.js "type="text/javascript"></script>
 	
@@ -28,6 +42,8 @@
 
 <div class="container">
 	<header>
+		<div id="logo"></div>
+		
 		<nav id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
@@ -49,15 +65,9 @@
 
 	<div class="clear"></div>
 
-	<footer>
+	<footer class="clear">
 	<div id="footer_centre">
-		Copyright &copy; <?php echo date('Y'); ?> Contra Design
-		<?php $this->widget('zii.widgets.CMenu',array(
-			'items'=>array(
-				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-			),
-		)); ?>
+		<small>Copyright &copy; <?php echo date('Y'); ?> Contra Design</small>
 	</div> <!--#footer_centre-->
 	</footer><!-- footer -->
 

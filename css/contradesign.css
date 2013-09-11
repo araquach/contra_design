@@ -25,16 +25,53 @@
 /* @group General Styling */
 
 .container {
-	width: 950px;
+	width: 100%;
 	margin: 0 auto;
+}
+
+.page {
+	padding: 30px;
 }
 
 /* @group Header */
 
 header {
 	width: 100%;
-	height: 300px;
+	height: 200px;
 	background-color: black;
+	position: relative;
+	float: left;
+}
+
+#logo {
+	background: url('../images/main/contra-logo.png') no-repeat left top;
+	width: 220px;
+	height: 90px;
+	position: absolute;
+	top: 40px;
+	left: 20px;
+	
+}
+
+nav ul {
+	float: left;
+	margin-top: 150px;
+	padding-left: 30px;
+}
+
+nav ul li {
+	float: left;
+	display: block;
+	margin-right: 30px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+nav ul li a:hover {
+	opacity: .7;
 }
 
 /* @end */
@@ -44,10 +81,43 @@ header {
 /* @group Footer */
 
 footer {
-	
+	float: left;
+	clear: both;
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+
+footer small {
+	color: #FFF;
+	float: left;
+	margin-top: 70px;
+	margin-left: 30px;
 }
 
 /* @end */
+
+@media screen and (max-device-width: 480px){
+    /*--- iPhone only CSS here ---*/
+
+	body {
+        -webkit-text-size-adjust:none;
+        font-family:Helvetica, Arial, Verdana, sans-serif;
+    }
+     
+    .container {
+    	width: 100%;
+    }
+    
+    nav {
+    	margin-left: 0;
+    }
+   
+
+
+
+
+} /* end iphone styling */
 
 
 

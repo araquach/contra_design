@@ -1,17 +1,9 @@
-
-
 <?php
 /* @var $this SiteController */
 $this->pageTitle=Yii::app()->name;
 ?>
 
-<?php 
-
-?>
-
-
-
-<div id="home">
-
+<div id="home" class="page">
+<h1>Welcome!!</h1>
 
 </div> <!--#home-->
