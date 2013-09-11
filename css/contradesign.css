@@ -1,13 +1,6 @@
 
 @charset "UTF-8";
 
-/* @group Fonts */
-
-@import 'fonts/cabinsketch/stylesheet.css'; 
-@import 'fonts/Print-Clearly/stylesheet.css';
-
-/* @end */
-
 /* @group Clear Fix */
 
 .group:after {
@@ -32,13 +25,16 @@
 /* @group General Styling */
 
 
+
+/* @end */
+
+/* @group Footer */
+
 footer {
 	
 }
 
-div#footer_centre {
-	
-}
-
 /* @end */
+
+
 
