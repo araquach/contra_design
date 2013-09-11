@@ -147,30 +147,34 @@ div#home {
 }
 
 #sliderContainer {
-	margin: 80px auto 20px auto;
+	margin: 100px auto 20px auto;
 	max-width: 900px;
+	min-height: 300px;
+}
+
+#sliderContainer h1 {
+	font-size: 3em;
+	margin-top: 100px;
 }
 
 #slider .slide {
-	-webkit-background-size: contain;
-	  -moz-background-size: contain;
-	  -o-background-size: contain;
-	  background-size: contain;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
 }
 
 #slider .s1 {
-	background: url('../images/home/doodle-communication.jpg') no-repeat left top;
+	background: url('../images/home/doodle-communication.jpg') no-repeat center center;
 }
 
 #slider .s2 {
-	background: url('../images/home/man-using-a-computer.jpg') no-repeat left top;
+	background: url('../images/home/man-using-a-computer.jpg') no-repeat center center;
 }
 
 #slider .s3 {
-	background: url('../images/home/social-media.jpg') no-repeat left top;
+	background: url('../images/home/social-media.jpg') no-repeat center center;
 }
-
-
 
 
 div#home a {
