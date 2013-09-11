@@ -138,6 +138,14 @@ li.active a {
 	border-bottom: 2px solid #FFF;
 }
 
+/* @end */
+
+/* @group Index */
+
+div#home {
+	
+}
+
 #sliderContainer {
 	margin: 80px auto 20px auto;
 	max-width: 900px;
@@ -151,33 +159,19 @@ li.active a {
 }
 
 #slider .s1 {
-	background: url('../images/test0.jpg') no-repeat left top;
+	background: url('../images/home/doodle-communication.jpg') no-repeat left top;
 }
 
 #slider .s2 {
-	background: url('../images/test1.jpg') no-repeat left top;
+	background: url('../images/home/man-using-a-computer.jpg') no-repeat left top;
 }
 
 #slider .s3 {
-	background: url('../images/test2.jpg') no-repeat left top;
-}
-
-#slider .s4 {
-	background: url('../images/test3.jpg') no-repeat left top;
-}
-
-#slider .s5 {
-	background: url('../images/test4.jpg') no-repeat left top;
+	background: url('../images/home/social-media.jpg') no-repeat left top;
 }
 
 
-/* @end */
 
-/* @group Index */
-
-div#home {
-	
-}
 
 div#home a {
 	color: #fff;

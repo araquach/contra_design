@@ -25,8 +25,7 @@ Yii::app()->clientScript->registerScript('anythingSlider',"$('#slider').anything
 		<div class="slide s1"></div>
 		<div class="slide s2"></div>
 		<div class="slide s3"></div>
-		<div class="slide s4"></div>
-		<div class="slide s5"><h1>HTML Test</h1><p>This is to see if HTML does work?</p></div>
+		<div class="slide s4"><h1>HTML Test</h1><p>This is to see if HTML does work?</p></div>
 </div>
 </section><!--sliderContainer-->
 
