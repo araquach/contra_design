@@ -22,7 +22,7 @@
 
 /* @end */
 
-/* @group General Styling */
+/* @group General */
 
 .container {
 	width: 100%;
@@ -33,7 +33,9 @@
 	padding: 30px;
 }
 
-/* @group Header */
+/* @end */
+
+/* @group header */
 
 header {
 	width: 100%;
@@ -73,8 +75,6 @@ nav ul li a {
 nav ul li a:hover {
 	opacity: .7;
 }
-
-/* @end */
 
 /* @end */
 
