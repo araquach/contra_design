@@ -8,7 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/contradesign.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/scripts/anythingSlider/css/anythingslider.css" />
 	
 	
 	<?php //enable for Google Analytics - enter account number and domain
@@ -17,7 +16,7 @@
 			array('account'=>'**-*******-*','domainName'=>'template.com'));
 	*/?>
 	
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/selectivisr-min.js "type="text/javascript"></script>
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/selectivizr-min.js "type="text/javascript"></script>
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/modernizr.js "type="text/javascript"></script>
 	
 
@@ -28,15 +27,8 @@
 <body>
 
 <div class="container" id="page">
-
 	<header>
-	
-	<div id="nav_logo">
-		<div id="logo">
-		<?php echo CHtml::link('<img src="images/contra-logo.png" alt="Contra Design & Photography"/>', array('/site/index')); ?>
-		</div> <!--#logo-->
-		
-	<nav id="mainmenu">
+		<nav id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'HOME', 'url'=>array('/site/index')),
@@ -50,16 +42,9 @@
 				
 			),
 		)); ?>
-	</nav><!-- mainmenu -->
-	</div><!--nav_logo-->
+		</nav><!-- mainmenu -->
 	</header><!-- header -->
 	
-	<?php if(isset($this->breadcrumbs)):?>
-		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
-			'links'=>$this->breadcrumbs,
-		)); ?><!-- breadcrumbs -->
-	<?php endif?>
-
 	<?php echo $content; ?> <!--main content from views-->
 
 	<div class="clear"></div>
