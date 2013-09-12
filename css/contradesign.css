@@ -32,6 +32,11 @@
 	padding: 30px;
 	margin: 0 auto;
 	max-width: 890px;
+	float: left;
+}
+
+.page h1, h2, h3, h4, h5, h6 {
+ margin-top: 0px;
 }
 
 /* @end */
@@ -128,7 +133,7 @@ footer small {
     }
     
     nav {
-    	margin-left: 0;
+    	display: none;
     }
    
 
