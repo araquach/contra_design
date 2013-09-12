@@ -26,11 +26,12 @@
 
 .container {
 	width: 100%;
-	margin: 0 auto;
 }
 
 .page {
 	padding: 30px;
+	margin: 0 auto;
+	max-width: 890px;
 }
 
 /* @end */
@@ -39,26 +40,38 @@
 
 header {
 	width: 100%;
-	height: 200px;
 	background-color: black;
-	position: relative;
 	float: left;
+	min-height: 100px;
+}
+
+#headerContent {
+	margin: 0 auto;
+	position: relative;
+	max-width: 950px;
 }
 
 #logo {
 	background: url('../images/main/contra-logo.png') no-repeat left top;
 	width: 220px;
-	height: 90px;
+	height: 70px;
 	position: absolute;
-	top: 40px;
+	top: 15px;
 	left: 20px;
-	
+}
+
+#navspacer {
+	height: 40px;
+	width: 20px;
+	float: left;
+	margin-left: 250px;
 }
 
 nav ul {
 	float: left;
-	margin-top: 150px;
 	padding-left: 30px;
+	width: 500px;
+	margin-top: 70px;
 }
 
 nav ul li {
@@ -86,6 +99,11 @@ footer {
 	width: 100%;
 	height: 100px;
 	background-color: black;
+}
+
+#footerContent {
+	margin: 0 auto;
+	max-width: 950px;
 }
 
 footer small {

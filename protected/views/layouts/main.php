@@ -42,7 +42,9 @@
 
 <div class="container">
 	<header>
+	<div id="headerContent">
 		<div id="logo"></div>
+		<div id="navspacer"></div>
 		
 		<nav id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
@@ -59,6 +61,7 @@
 			),
 		)); ?>
 		</nav><!-- mainmenu -->
+	</div> <!--#headerContent-->
 	</header><!-- header -->
 	
 	<?php echo $content; ?> <!--main content from views-->
@@ -66,9 +69,11 @@
 	<div class="clear"></div>
 
 	<footer class="clear">
+	<div id="footerContent">
 	<div id="footer_centre">
 		<small>Copyright &copy; <?php echo date('Y'); ?> Contra Design</small>
 	</div> <!--#footer_centre-->
+	</div> <!--#footerContent-->
 	</footer><!-- footer -->
 
 </div><!-- page -->
