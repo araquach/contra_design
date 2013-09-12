@@ -63,9 +63,10 @@
 		</nav><!-- mainmenu -->
 	</div> <!--#headerContent-->
 	</header><!-- header -->
-	
+	<div id="page">
 	<?php echo $content; ?> <!--main content from views-->
-
+	</div>
+	
 	<div class="clear"></div>
 
 	<footer class="clear">

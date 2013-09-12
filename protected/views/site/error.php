@@ -4,7 +4,7 @@
 
 $this->pageTitle=Yii::app()->name . ' - Error';
 ?>
-<div class="page">
+<div class="pageContent">
 <h2>Error <?php echo $code; ?></h2>
 
 <div class="error">
