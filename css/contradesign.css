@@ -103,19 +103,20 @@ nav ul li a:hover {
 
 .banner { 
 	position: relative; 
-	background-color: red;
-	float: left;
+	overflow: auto; 
+}
+
+.banner ul {
+	margin: 0;
+	padding: 0;
 }
     
 .banner li { 
-	list-style: none;
-	font-size: 2em; 
+	list-style: none; 
 }
-
+        
 .banner ul li { 
 	float: left; 
-	height: 300px;
-	width: 100%;
 }
 
 /* @end */
