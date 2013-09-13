@@ -51,8 +51,20 @@
 			),
 		)); ?>
 	</nav><!-- mainmenu -->
+	
+	
 	</div><!--nav_logo-->
 	</header><!-- header -->
+	
+	<section id="subMenu">
+		<ul>
+			<li>Facebook</li>
+			<li>Twitter</li>
+			<li>Mailing List</li>
+			<li>Other Stuff</li>
+			<li>One More</li>
+		</ul>
+	</section>
 	
 	<?php if(isset($this->breadcrumbs)):?>
 		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
